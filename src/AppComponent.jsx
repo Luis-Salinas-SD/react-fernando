@@ -1,9 +1,12 @@
-const AppComponent = () => {
+/* function showMessage() {
+    return 'Hola Mundo'
+} */
+const AppComponent = (props) => {
+    console.log(props.cadena);
     return (
         <div>
-            <h1>Luis Salinas</h1>
+            <span>{props.cadena}</span>
         </div>
-
     )
 }
 
