@@ -5,7 +5,7 @@ import './style.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <AppComponent cadena='Lorem impusm' />
+        <AppComponent cadena='Lorem impusm' puesto='Admin' />
     </React.StrictMode>
 );
 

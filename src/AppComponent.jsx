@@ -1,11 +1,11 @@
 /* function showMessage() {
     return 'Hola Mundo'
 } */
-const AppComponent = (props) => {
-    console.log(props.cadena);
+const AppComponent = ({ cadena, puesto }) => {
+    //console.log(props.cadena);
     return (
         <div>
-            <span>{props.cadena}</span>
+            <span>Bienvenido {cadena}, rol en: {puesto}</span>
         </div>
     )
 }
