@@ -13,3 +13,8 @@ const AppComponent = ({ cadena, puesto }) => {
 export default AppComponent
 
 
+AppComponent.defaultProps = {
+    cadena: 'Usuario no encontrado',
+    puesto: 'not found'
+}
+
