@@ -6,7 +6,8 @@ import './style.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <PropTypess value={66} />
+        {/* <PropTypess value={66} /> */}
+        <Eventos />
     </React.StrictMode>
 );
 
