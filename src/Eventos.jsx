@@ -4,7 +4,7 @@ const Eventos = () => {
     return (
         <>
             <div>Eventos</div>
-            <button></button>
+            <button>Agregar!</button>
         </>
     )
 }
