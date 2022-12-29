@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         {/* <AppComponent cadena="Luis" puesto="Desarrollo Web" /> */}
         {/* <PropTypess value={18} /> */}
         {/* <PropTypess value={66} /> */}
-        <Eventos />
-        <UserComponent nombre="Luis" />
+        {/* <UserComponent nombre="Luis" /> */}
+        <Eventos valor={10} />
     </React.StrictMode>
 );
