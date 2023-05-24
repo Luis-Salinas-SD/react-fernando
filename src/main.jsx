@@ -1,17 +1,19 @@
 import React from 'react'
 import ReactDOM from "react-dom/client";
-import AppComponent from "./AppComponent";
-import PropTypess from "./PropTypess";
-import Eventos from "./Eventos";
+//! Importacion de Componentes ⬇️⬇️⬇️⬇️
+import Componente from './1Componente-props/Componente';
 import UserComponent from "./UserComponent";
+import Eventos from "./2Eventos/Eventos";
+import Cusestatte from './3useState/Cusestatte';
 import './style.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        {/* <AppComponent cadena="Luis" puesto="Desarrollo Web" /> */}
-        {/* <PropTypess value={18} /> */}
-        {/* <PropTypess value={66} /> */}
+
+        {/* <Componente /> */}
         {/* <UserComponent nombre="Luis" /> */}
-        <Eventos valor={10} />
+        {/* <Eventos valor={10} /> */}
+        <Cusestatte/>
+
     </React.StrictMode>
 );
